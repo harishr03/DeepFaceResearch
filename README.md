@@ -34,7 +34,7 @@ We have a for loop that takes the x,y,w,h as parameters and as long as these are
 
 Finally, we have a downloaded .wav file that contains the ligth beep audion that plays once the face is not detected within our parameter. We can shut down our fucntion by pressing the 'x'.
 
-#Conclusion:
+# Conclusion:
 This program could be used by individuals with visual impairments as tool to help them center themselves on the front facing camera to make sure they are visible on the screen while in an online Conference setting. 
 
 
