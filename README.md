@@ -26,5 +26,15 @@ while True:
         if cv.waitKey(20) == ord('x'):
             break
 ```
-The above lines of code are for accessing the front facing camera, analyzing the image captured through the camera and detecting actions such as age, race and emotion captured. 
+In this project we used the OpenCV Python Library for our facial recognition model. The code displayed above is the the code for the main function of our program . This code is a While loop that loops as long as it gets a signal and detects a face on the camera. 
+
+The code check if the camera detects a face using the OpenCV function '.read()' this function detect the face. Once the face is detected we switch to grayscale for an accurate reading of the facial recognition model. We then create a variable 'coordinate_list' that holds the coordinates of the position the face is detected in. 
+
+We have a for loop that takes the x,y,w,h as parameters and as long as these are within the coordinates_list, this loop is going to try to rectangulate the frame of x,y,w,h parameters in the color green. We can display this live using the 'imshow()' function. 
+
+Finally, we have a downloaded .wav file that contains the ligth beep audion that plays once the face is not detected within our parameter. We can shut down our fucntion by pressing the 'x'.
+
+#Conclusion:
+This program could be used by individuals with visual impairments as tool to help them center themselves on the front facing camera to make sure they are visible on the screen while in an online Conference setting. 
+
 
